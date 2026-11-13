@@ -1,0 +1,44 @@
+SLV CHEST & ALLERGY CLINIC — STEP 42 PRE-DEPLOYMENT CHECKLIST
+Review source: Step 41 final Hostinger production package
+Scope: package/content consistency review only. No deployment or live-server test.
+
+PACKAGE CHECKS
+- HTML pages present: 7 (404.html, about.html, appointment.html, contact.html, index.html, privacy.html, service.html)
+- .htaccess present: True
+- robots.txt present: True
+- sitemap.xml present: True
+- ZIP source entries: 70
+
+CONSISTENCY REVIEW
+- Phone number +91 92470 57626: found on 7/7 HTML pages (confirm clinic accuracy)
+- Email slvchestandallergyclinic@gmail.com: found on 6/7 HTML pages (confirm clinic accuracy)
+- Doctor Dr. Sudhindra Rangu: found on 6/7 HTML pages (confirm clinic accuracy)
+- Qualification MBBS, MD (TB & RD): found on 3/7 HTML pages (confirm clinic accuracy)
+- Monday–Saturday hours: found on 6/7 HTML pages (confirm clinic accuracy)
+- Sunday hours: found on 6/7 HTML pages (confirm clinic accuracy)
+
+CLINIC OWNER MUST CONFIRM BEFORE PUBLICATION
+- [ ] Exact clinic legal/display name and whether “Sri Lakshmi Venkateswara” expansion is correct.
+- [ ] Dr. Sudhindra Rangu name, MBBS and MD (TB & RD) qualifications, and permission to publish profile/photo.
+- [ ] All listed education, training institutions, professional memberships and award title/event/year.
+- [ ] Every advertised service and whether currently available: spirometry, DLCO, FeNO, oscillometry, allergy testing, bronchoscopy, GeneXpert, sleep studies, laboratory, X-ray, ECG and day-care.
+- [ ] Whether the clinic owns/operates each named machine and whether procedures are performed on-site or referred externally.
+- [ ] Claims about lower-cost laboratory and X-ray services and the eligibility/conditions for those prices.
+- [ ] Exact street address, map destination, phone/WhatsApp number, monitored email address and social-media accounts.
+- [ ] Clinic opening hours, including Sunday and holiday arrangements.
+- [ ] Rights/consent for all doctor, staff, premises, equipment, award and clinic photographs; ensure no patient-identifiable information appears.
+- [ ] Privacy policy reflects real handling of calls, email and WhatsApp enquiries, third-party assets, retention and access. Obtain suitable legal/privacy review.
+- [ ] Confirm no online appointment form or patient-record upload is intended; current site offers call/email/WhatsApp only.
+
+DEPLOYMENT GATES (NOT YET TESTED)
+- [ ] Back up existing Hostinger public_html and any associated database.
+- [ ] Confirm correct document root and test on staging/subdomain if available.
+- [ ] Enable and verify SSL before enforcing HTTPS/HSTS.
+- [ ] Upload ZIP contents so index.html is directly in the document root.
+- [ ] Test every page, navigation item, tel/mailto/WhatsApp/maps link on desktop and mobile.
+- [ ] Confirm invalid URL returns HTTP 404 and displays /404.html.
+- [ ] Inspect browser console/network for CSP, missing assets and JavaScript errors.
+- [ ] Verify response security headers and redirects on the actual Hostinger server.
+- [ ] Submit sitemap in Google Search Console after launch.
+
+IMPORTANT: This review does not verify the truth of medical/credential claims, image permissions, third-party privacy practices, legal compliance, mobile rendering, live links, HTTP status codes, TLS or security headers. Do not treat checked package presence/consistency as proof of clinic accuracy.
